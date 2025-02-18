@@ -1,17 +1,16 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
 # P5 - Deploy an App with CodeDeploy
 
-**Project Link:** [View Project](http://learn.nextwork.org/projects/aws-devops-codedeploy)
+
 
 **Author:** Aleemuddin Mohammad  
-**Email:** 2747aleem@gmail.com
+**Email:** aleem2747@gmail.com
 
 ---
 
 ## Deploy an App with CodeDeploy
 
-![Image](http://learn.nextwork.org/surprised_black_smart_goose/uploads/aws-devops-codedeploy_69ede4b0)
+![Image](P4-Package-App-with-CodeBuild/A6C90772-E7DD-4EF3-B46A-E8DBD5BF9B99_1_201_a.jpeg)
 
 ---
 
@@ -43,7 +42,7 @@ We manage production and development environments separately because by having a
 
 To set up my EC2 instance and VPC, I used CloudFormation service. 
 
-![Image](http://learn.nextwork.org/surprised_black_smart_goose/uploads/aws-devops-codedeploy_26e7b830)
+![Image](aws-devops-codedeploy_26e7b830)
 
 ---
 
@@ -63,7 +62,7 @@ The third script I created was the stop_server.sh. This script is used to stop t
 
 ## Bash scripts
 
-![Image](http://learn.nextwork.org/surprised_black_smart_goose/uploads/aws-devops-codedeploy_69ede4b0)
+![Image](aws-devops-codedeploy_69ede4b0)
 
 ---
 
@@ -74,7 +73,7 @@ I created an IAM service role for CodeDeploy so that CodeDeploy can deploy to an
 
 To set up CodeDeploy’s IAM role, I codedeploy as the usecase in the codedeploy service and created a role.
 
-![Image](http://learn.nextwork.org/surprised_black_smart_goose/uploads/aws-devops-codedeploy_59de20cd)
+![Image](aws-devops-codedeploy_59de20cd)
 
 ---
 
@@ -86,7 +85,7 @@ To create a CodeDeploy application, I had to select a compute platform, which me
 
 The compute platform I chose was EC2  because it provides us with virtual servers in the cloud that we can fully control. This means we can install, configure, and manage everything on these servers, which is perfect for running our web application. 
 
-![Image](http://learn.nextwork.org/surprised_black_smart_goose/uploads/aws-devops-codedeploy_75e763ef)
+![Image](aws-devops-codedeploy_75e763ef)
 
 ---
 
@@ -101,7 +100,7 @@ Environment sets up the type of resources that will be running the application, 
 
 A CodeDeploy Agent is like a helper installed on your servers (EC2 instances) that communicates with CodeDeploy to get the instructions for deploying your application. It ensures that the servers know what to do when a new version of your applicati
 
-![Image](http://learn.nextwork.org/surprised_black_smart_goose/uploads/aws-devops-codedeploy_054373a8)
+![Image](aws-devops-codedeploy_054373a8)
 
 ---
 
@@ -113,7 +112,7 @@ My revision location was my s3://nextwork-build-artifacts-aleemuddin/nextwork-we
 
 To visit my web app, I had to visit ec2 instance public IPv4 address and change https to http. 
 
-![Image](http://learn.nextwork.org/surprised_black_smart_goose/uploads/aws-devops-codedeploy_a333c89c)
+![Image](aws-devops-codedeploy_a333c89c)
 
 ---
 
