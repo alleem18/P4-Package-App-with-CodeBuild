@@ -10,7 +10,7 @@
 
 ## Deploy an App with CodeDeploy
 
-![Image](P4-Package-App-with-CodeBuild/A6C90772-E7DD-4EF3-B46A-E8DBD5BF9B99_1_201_a.jpeg)
+![Image](https://github.com/alleem18/P4-Package-App-with-CodeBuild/blob/main/A6C90772-E7DD-4EF3-B46A-E8DBD5BF9B99_1_201_a.jpeg)
 
 ---
 
